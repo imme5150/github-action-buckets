@@ -6,12 +6,12 @@ Buckets provide you easy access to multiple protocols for sharing or moving data
 
 ##### Example output
 
-- **ipfs**: bafybeigu4cekqzl6fs57svia63p4v4yvp6oanrsuktgwy7sc742dcp4yrm
-- **ipfs gateway link**: https://hub.textile.io/ipfs/bafybeigu4cekqzl6fs57svia63p4v4yvp6oanrsuktgwy7sc742dcp4yrm
-- **ipns**: bafzbeicg4zuixstnoubuvb4nvqfcgj7iqu4dm6l3fwiwgnac6nsrnfgzjm
-- **ipns link**: https://hub.textile.io/ipns/bafzbeicg4zuixstnoubuvb4nvqfcgj7iqu4dm6l3fwiwgnac6nsrnfgzjm
-- **hub link**: https://hub.textile.io/thread/bafky45bowefya4lprbkvzzvmmjmqr56hu6qn6wpolbjil7p25goycwy/buckets/bafzbeicg4zuixstnoubuvb4nvqfcgj7iqu4dm6l3fwiwgnac6nsrnfgzjm
-- **www link**: https://bafzbeicg4zuixstnoubuvb4nvqfcgj7iqu4dm6l3fwiwgnac6nsrnfgzjm.textile.space
+- **ipfs** - bafybeigu4cekqzl6fs57svia63p4v4yvp6oanrsuktgwy7sc742dcp4yrm
+- **ipfs gateway link** - https://hub.textile.io/ipfs/bafybeigu4cekqzl6fs57svia63p4v4yvp6oanrsuktgwy7sc742dcp4yrm
+- **ipns** - bafzbeicg4zuixstnoubuvb4nvqfcgj7iqu4dm6l3fwiwgnac6nsrnfgzjm
+- **ipns link** - https://hub.textile.io/ipns/bafzbeicg4zuixstnoubuvb4nvqfcgj7iqu4dm6l3fwiwgnac6nsrnfgzjm
+- **hub link** - https://hub.textile.io/thread/bafky45bowefya4lprbkvzzvmmjmqr56hu6qn6wpolbjil7p25goycwy/buckets/bafzbeicg4zuixstnoubuvb4nvqfcgj7iqu4dm6l3fwiwgnac6nsrnfgzjm
+- **www link** - https://bafzbeicg4zuixstnoubuvb4nvqfcgj7iqu4dm6l3fwiwgnac6nsrnfgzjm.textile.space
 
 ## Usage
 
@@ -44,13 +44,13 @@ jobs:
         pattern: '<FILE_PATTERN>'
         remove: '<REMOVE_BUCKET?>'
     # Use the output from the `hello` step
-    - run: echo "bucket key: ${{ steps.bucket.outputs.key }}"
-    - run: echo "ipfs: ${{ steps.bucket.outputs.ipfs }}"
-    - run: echo "ipfs link: ${{ steps.bucket.outputs.ipfsUrl }}"
-    - run: echo "ipns: ${{ steps.bucket.outputs.ipns }}"
-    - run: echo "ipns link: ${{ steps.bucket.outputs.ipnsUrl }}"
-    - run: echo "hub: ${{ steps.bucket.outputs.hub }}"
-    - run: echo "www: ${{ steps.bucket.outputs.www }}"
+    - run: echo "bucket key - ${{ steps.bucket.outputs.key }}"
+    - run: echo "ipfs - ${{ steps.bucket.outputs.ipfs }}"
+    - run: echo "ipfs link - ${{ steps.bucket.outputs.ipfsUrl }}"
+    - run: echo "ipns - ${{ steps.bucket.outputs.ipns }}"
+    - run: echo "ipns link - ${{ steps.bucket.outputs.ipnsUrl }}"
+    - run: echo "hub - ${{ steps.bucket.outputs.hub }}"
+    - run: echo "www - ${{ steps.bucket.outputs.www }}"
 ```
 
 **Parameters**
